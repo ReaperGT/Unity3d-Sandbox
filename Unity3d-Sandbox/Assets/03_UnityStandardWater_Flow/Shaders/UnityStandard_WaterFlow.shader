@@ -30,10 +30,7 @@
 
 		CGPROGRAM
 	
-	#pragma target 3.0
-
-	
-	#pragma surface surf Lambert alpha noforwardadd 		
+	#pragma surface surf Lambert alpha noforwardadd noshadow noambient		
 	#pragma multi_compile WATER_REFRACTIVE WATER_REFLECTIVE WATER_SIMPLE
 
 	#if defined (WATER_REFLECTIVE) || defined (WATER_REFRACTIVE)
