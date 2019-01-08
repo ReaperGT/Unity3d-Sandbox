@@ -1,4 +1,4 @@
-Shader "Custom/UnityStandard_Water" {
+Shader "Custom/UnityStandard_WaterCBufferRefr" {
 Properties {
 	_WaveScale ("Wave scale", Range (0.02,0.15)) = 0.063
 	_ReflDistort ("Reflection distort", Range (0,1.5)) = 0.44
